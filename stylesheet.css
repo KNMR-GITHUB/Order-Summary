@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "specimen", sans-serif;
+}
+body{
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("images/pattern-background-desktop.svg") no-repeat;
+  background-color:hsl(225, 100%, 98%);
+  background-size: contain;
+}
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  border-radius: 12px;
+  background-color: white;
+}
+.image{
+  max-width: inherit;
+  width: inherit;
+  border-radius: 12px 12px 0 0;
+}
+.boy{
+  width:inherit;
+  border-radius: 12px 12px 0 0;
+}
+.body{
+  max-width: inherit;
+  width: inherit;
+  padding: 2rem;
+}
+.head{
+  margin-bottom: 1rem;
+  color: hsl(223, 47%, 23%);
+}
+h1{
+  font-weight: 900;
+
+}
+.para{
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+.pay-con{
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  margin: 1rem auto;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+.duration{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.amount{
+  color:hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.common{
+  display: flex;
+  align-items: center;
+}
+.music{
+  margin-right: 1rem;
+}
+.plan{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.change{
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.change:hover a{
+  text-decoration: none;
+  color:violet;
+
+}
+
+
+button{
+  cursor:pointer;
+  display: block;
+  width:100%;
+  border-radius: 12px;
+  border-style: none;
+  background-color: hsl(245, 75%, 52%);
+  padding: 0.9rem;
+  color: white;
+  font-weight: 700;
+  box-shadow:  0 1rem 0.9rem 0.8rem  hsl(225, 100%, 94%);
+}
+button:hover{
+  background-color: violet;
+}
+
+.cancel{
+  color:hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  cursor:pointer;
+}
+.cancel:hover{
+  color:hsl(223, 47%, 23%);
+}
